@@ -466,3 +466,40 @@
     font-size: 3rem;
   }
 }
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.quantity-label {
+  color: #4b5563;
+  margin-right: 0.75rem;
+}
+
+.quantity-button {
+  padding: 0.25rem 0.5rem;
+  background-color: #e5e7eb;
+  border: none;
+  cursor: pointer;
+}
+
+.quantity-button:hover {
+  background-color: #d1d5db;
+}
+
+.quantity-button-left {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.quantity-button-right {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.quantity-display {
+  padding: 0.25rem 1rem;
+  background-color: #f3f4f6;
+}
