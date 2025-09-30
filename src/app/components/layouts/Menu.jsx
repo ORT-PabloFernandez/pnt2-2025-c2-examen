@@ -8,6 +8,7 @@ import { usePathname } from 'next/navigation';
 const Menu = () => {
   const navLinks = [
       // Agregar aqui los enlaces del menu
+      { name: '', path: '/AirbnbList', icon: <FaHome /> },
   ];
 
   const pathname = usePathname();

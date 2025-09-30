@@ -50,6 +50,9 @@ export const AuthProvider = ({ children }) => {
       // Guardar token y usuario
       const userToken = data.token || data.accessToken;
       const userData = data.user || data;
+      console.log("asd");
+      console.log(userToken);
+
 
       setToken(userToken);
       setCurrentUser(userData);
